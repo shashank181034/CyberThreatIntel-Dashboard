@@ -18,6 +18,26 @@ This project demonstrates **API integration, data visualization, and threat inte
 🚧 **Work in Progress**: PDF report export for analysts  
 
 ---
+
+## ⚠️ Limitations  
+
+- **Shodan Free Tier** → Only works reliably for popular/public IP ranges. Host lookups for specific IPs require a **paid membership**.  
+- **VirusTotal Free Tier** → Rate-limited (4 requests/min). Bulk scans require premium.  
+- **OTX** → Community-powered data, may not always cover all IPs.  
+
+👉 Despite these limits, the tool is ideal for **learning, demos, and SOC analyst workflows**.  
+
+---
+
+## 🎯 SOC Use Case  
+
+- **Analyst Triage** → Quickly enrich suspicious IPs with threat intel.  
+- **Incident Response** → Check if an IP is malicious, scanned, or part of threat pulses.  
+- **Reporting** → Generate dashboards & (soon) PDF reports for management.  
+- **Enrichment Layer** → Can be integrated into SIEM/SOAR pipelines as an enrichment tool.
+
+---
+
 ## ⚙️ Setup  
 
 ### 1. Clone the repo  
